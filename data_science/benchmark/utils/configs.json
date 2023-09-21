@@ -1,0 +1,40 @@
+{
+    "default" : {
+        "test_1": {
+            "fs":  1000,
+            "size_sample": 4000,
+            "size_sub_pack": 512
+        },
+        "test_2": {
+            "fs":  19638.6,
+            "size_sample": 20000,
+            "size_sub_pack": 512
+        },
+        "test_3": {
+            "fs":  16383.99,
+            "size_sample": 17000,
+            "size_sub_pack": 512
+        },
+        "test_4": {
+            "fs":  10000,
+            "size_sample": 10000,
+            "size_sub_pack": 512
+        },
+        "test_5": {
+            "fs":  20480,
+            "size_sample": 20480,
+            "size_sub_pack": 2048
+        },
+        "test_6": {
+            "fs":  4096,
+            "size_sample": 4096,
+            "size_sub_pack": 1024,
+            "data_len": [7.5e6, 4]
+        },
+        "test_7": {
+            "fs":  2048,
+            "size_sample": 2048,
+            "size_sub_pack": 512
+        }
+    }
+}

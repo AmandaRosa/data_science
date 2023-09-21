@@ -1,0 +1,38 @@
+{
+    "default": {
+        "filenames": {
+            "data": "Teste_@.npy",
+            "target": "Targets_teste_@.npy"
+        },
+        "models": [
+            {
+                "name": "gates",
+                "info":{            
+                    "threshold_gates": 0.5,
+                    "nominal_rotation": 2000,
+                    "aquisition_frequency": 2048
+                }
+            },
+            {
+                "name": "auto_encoder",
+                "filename": "ae_model_teste_@.h5",
+                "threshold": "ae_thresholds_teste_@.npy"
+            },
+            {
+                "name": "deep_ant",
+                "filename": "da_model_teste_@.h5",
+                "threshold": "da_threshold_teste_@.npy"
+            },
+            {
+                "name": "histogram",
+                "info": {
+                    "nominal_rotation": 120,
+                    "p_value_limit": 0.05,
+                    "n_bins": 5,
+                    "filter_type": "wavelets",
+                    "rotational_speed_estimation": 0
+                }
+            }
+        ]
+    }
+}
